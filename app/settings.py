@@ -6,7 +6,7 @@ from pydantic import BaseModel
 class Settings(BaseModel):
     MAIN_KEY_B64: str = "WWcmdGMlREV1aDYlWmNeOA=="
     MAIN_IV_B64: str = "Nm95WkRyMjJFM3ljaGpNJQ=="
-    RELEASE_VERSION: str = "OB51"
+    RELEASE_VERSION: str = "OB52"
 
     USER_AGENT: str = "GarenaMSDK/4.0.19P10(I2404 ;Android 15;en;US;)" 
     
